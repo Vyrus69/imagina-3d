@@ -1,0 +1,315 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    background: rgb(255,0,228);
+    background: -moz-linear-gradient(135deg, rgba(255,0,228,1) 0%, rgba(119,255,45,1) 50%, rgba(9,105,237,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(255,0,228,1) 0%, rgba(119,255,45,1) 50%, rgba(9,105,237,1) 100%);
+    background: linear-gradient(135deg, rgba(255,0,228,1) 0%, rgba(119,255,45,1) 50%, rgba(9,105,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00e4",endColorstr="#0969ed",GradientType=1);
+}
+
+
+
+/* HEADER */
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__logo img{
+    width: 125px;
+    height: 90px;
+}
+.buscador{
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid yellow;
+    border-radius: 25px;
+}
+.header__nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header__nav ul li{
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
+a:hover{
+    color: black;
+}
+.header__icono img{
+    width: 50px;
+    height: 50px;
+}
+
+/* MAIN - INDEX */
+#banner{
+    height: 450;
+    background-image: url(../imagenes/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.H1{
+    color: darkorange;
+    font-size: 250px;
+    font-style: oblique;
+    text-align: center;
+}
+.H2{
+    color: chocolate;
+    font-size: 120px;
+    font-style: oblique;
+    text-align: center;
+}
+.main__inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__inicio img{
+    margin-top: 50px;
+    width: 700px;
+    height: 700px;
+}
+
+/* MAIN - PRODUCTOS */
+.producto__organizar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.producto{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 4%;
+}
+.producto img{
+    width: 100%;
+    border-radius: 10px;
+}
+.producto .titulo{
+    font-size: 30px;
+}
+.producto .precio{
+    font-size: 35px;
+}
+.producto button{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+}
+
+/* MAIN - COLOR */
+.muestra__color{
+    color: #8FE388;
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+    margin-top: 60px;
+}
+.muestra img{
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.muestra img:hover{
+    scale: 1.2;
+}
+.muestra{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* MAIN - PROCEDIMIENTO */
+.procedimiento__titulo{
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 60px;
+}
+.procedimiento__pedido{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* MAIN - CONTACTO */
+.form__formulario{    
+    width: 400px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.place{
+   width: 78%;
+   padding: 5px;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.place1{
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.enviar{
+    border-radius: 5px;
+    background-color: yellow;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.redes{
+    color: darkorange;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+}
+
+/* FOOTER */ 
+footer{
+    background-color: white;
+    opacity: 0.6;  
+    align-items: center;
+    margin-top: auto;
+    height: 45px;
+    text-align: center;
+}
+
+/* MEDIA QUERY - CELULAR */
+@media (max-width:576px){
+    .header__logo img{
+        width: 63px;
+        height: 45px;
+    }
+    .buscador{
+        width: 100px;
+        height: 10px;
+        padding: 10px;
+        font-size: 10px;
+        border: 1px solid yellow;
+        border-radius: 25px;
+    }
+    .header__nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .header__nav ul li{
+        padding: 0px 20px;
+    }
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 15px;
+    }
+    .header__icono img{
+        width: 30px;
+        height: 30px;
+    }
+    footer{
+        height: 25px;
+        font-size: 10px;
+    }
+    .producto{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        width: 150px;
+        margin: 4%;
+    }
+    .producto img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .producto .titulo{
+        font-size: 15px;
+    }
+    .producto .precio{
+        font-size: 17px;
+    }
+    .muestra__color{
+        font-size: 35px;
+    }
+    .muestra img{
+        padding: 25px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+    }
+    .muestra img:hover{
+        scale: 1.2;
+    }
+    .procedimiento__titulo{
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .procedimiento__pedido{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .form__formulario{    
+        width: 150px;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .redes iframe{
+        width:350px;
+        height:250px;
+    }
+    #banner{
+        height: 100px;
+    }
+    .H1{
+        font-size: 50px;
+    }
+    .H2{
+        font-size: 25px;
+    }
+    .main__inicio img{
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+    }  
+    .main__inicio iframe{
+        margin-top: 10px;
+        width: 300px; 
+        height: 157px;
+    }
+
+}      

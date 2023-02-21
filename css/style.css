@@ -93,34 +93,6 @@ a:hover{
 }
 
 /* MAIN - PRODUCTOS */
-.producto__organizar{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.producto{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
-    margin: 4%;
-}
-.producto img{
-    width: 100%;
-    border-radius: 10px;
-}
-.producto .titulo{
-    font-size: 30px;
-}
-.producto .precio{
-    font-size: 35px;
-}
-.producto button{
-    background-color: yellow;
-    color: black;
-    padding: 10px;
-}
-
 /* MAIN - COLOR */
 .muestra__color{
     color: #8FE388;
@@ -265,8 +237,8 @@ footer{
     }
     .muestra img{
         padding: 25px;
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         border-radius: 50px;
     }
     .muestra img:hover{
@@ -282,7 +254,7 @@ footer{
     }
 
     .form__formulario{    
-        width: 150px;
+        width: 250px;
     }
     .contacto{
         display: flex;

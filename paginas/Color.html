@@ -14,25 +14,37 @@
     </head>
     <body>
         <header>
-            <div class="header__logo" >
-                <a href="../index.html">
-                    <img src="../imagenes/LOGO.png" alt="">
-                </a>   
-                <input type="text" placeholder="Busqueda" class="buscador">
-            </div>  
-            <nav class="header__nav">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./Productos.html">Productos</a></li>
-                    <li><a href="./Color.html">Colores</a></li>
-                    <li><a href="./Procedimiento.html">Procedimiento</a></li>
-                    <li><a href="./Contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="header__icono" >
-                <img src="../imagenes/Ingreso.png" alt="">
-                <img src="../imagenes/Carrito.png" alt="">
-            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Imagina 3d</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/Productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/Color.html">Colores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/Procedimiento.html">Procedimiento</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/Contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
             <h1 class="Muestra__color animate__animated animate__rubberBand">Muestras</h1>

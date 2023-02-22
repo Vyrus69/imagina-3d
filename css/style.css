@@ -13,8 +13,6 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00e4",endColorstr="#0969ed",GradientType=1);
 }
 
-
-
 /* HEADER */
 header{
     padding: 20px;
@@ -174,7 +172,6 @@ footer{
     background-color: white;
     opacity: 0.6;  
     align-items: center;
-    margin-top: auto;
     height: 45px;
     text-align: center;
 }

@@ -47,6 +47,9 @@ a:hover{
     background-size: cover;
     background-attachment: fixed;
 }
+.main__inicio iframe{
+    margin: 10px;
+}
 .H1{
     color: darkorange;
     font-size: 250px;

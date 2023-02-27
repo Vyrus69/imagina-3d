@@ -26,19 +26,16 @@ header{
     width: 130px;
     height: 100px;
 }
-a{
-    text-decoration: none;
-    color: yellow;
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.nav-link{
+    color: yellow !important;
     font-size: 20px;
 }
-a:hover{
-    color: black;
+.nav-link:hover{
+    color: black !important;
 }
-.header__icono img{
-    width: 50px;
-    height: 50px;
-}
-
 /* MAIN - INDEX */
 #banner{
     height: 450;
@@ -151,6 +148,8 @@ a:hover{
     width: 400px;
 }
 
+
+
 /* FOOTER */ 
 footer{
     background-color: white;
@@ -158,7 +157,7 @@ footer{
     justify-content: space-between;
     opacity: 0.6; 
     height: 30px;
-    font-size: 15;
+    font-size: 15;  
 }
 
 /* MEDIA QUERY - CELULAR */
@@ -169,7 +168,7 @@ footer{
     }
     #banner{
         height: 10px;;
-        }
+    }
     .header__logo img{
         width: 63px;
         height: 45px;
@@ -241,7 +240,6 @@ footer{
         margin-top: 50px;
         font-size: 15px;
     }
-
     .form__formulario{    
         width: 250px;
     }

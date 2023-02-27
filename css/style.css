@@ -36,6 +36,11 @@ header{
 .nav-link:hover{
     color: black !important;
 }
+.hamburguesa{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
 /* MAIN - INDEX */
 #banner{
     height: 450;

@@ -129,6 +129,7 @@ header{
     width: 400px;
     padding: 30px;
     margin-top: 30px;
+    margin-right: 350px;
 }
 .place{
    width: 78%;
@@ -148,7 +149,7 @@ header{
 .contacto{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px;
 }
 .redes{
@@ -275,9 +276,11 @@ footer{
     }
     .H1{
         font-size: 50px;
+        font-weight: 600;
     }
     .H2{
         font-size: 25px;
+        font-weight: 650;
     }
     .main__inicio img{
         margin-top: 20px;

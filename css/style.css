@@ -168,6 +168,11 @@ header{
 .link__redes{
     margin: 10px;
 }
+#navcustom{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 /* FOOTER */ 
 footer{
@@ -262,6 +267,7 @@ footer{
     }
     .form__formulario{    
         width: 250px;
+        margin-right: 70px;
     }
     .contacto{
         display: flex;

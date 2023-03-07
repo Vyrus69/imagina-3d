@@ -1,0 +1,13 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* BODY */
+body {
+  background: #ff00e4;
+  background: -moz-linear-gradient(135deg, #ff00e4 0%, #77ff2d 50%, #0969ed 100%);
+  background: -webkit-linear-gradient(135deg, #ff00e4 0%, #77ff2d 50%, #0969ed 100%);
+  background: linear-gradient(135deg, #ff00e4 0%, #77ff2d 50%, #0969ed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00e4",endColorstr="#0969ed",GradientType=1);
+  background-repeat: no-repeat; }

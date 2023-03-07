@@ -14,6 +14,13 @@ body{
 }
 /* por aca ya pase a sass
 
+
+
+
+
+
+
+
 /* HEADER */
 header{
     padding: 20px;
@@ -82,6 +89,8 @@ header{
 
 /* MAIN - PRODUCTOS */
 
+
+/*listo color
 /* MAIN - COLOR */
 .muestra__color{
     color: #4c38e3;
@@ -109,6 +118,7 @@ header{
     align-items: center;
     overflow: hidden;
 }
+/*listo color
 
 /* MAIN - PROCEDIMIENTO */
 .procedimiento__titulo{
@@ -173,6 +183,27 @@ header{
     justify-content: space-between;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* pasado
 /* FOOTER */ 
 footer{

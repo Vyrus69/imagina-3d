@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 /* BODY */
 body{
     background: rgb(255,0,228);
@@ -13,6 +12,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00e4",endColorstr="#0969ed",GradientType=1);
     background-repeat: no-repeat;
 }
+/* por aca ya pase a sass
 
 /* HEADER */
 header{
@@ -173,7 +173,7 @@ header{
     justify-content: space-between;
     
 }
-
+/* pasado
 /* FOOTER */ 
 footer{
     background-color: white;
@@ -184,6 +184,8 @@ footer{
     font-size: 15; 
     font-weight: 600; 
 }
+/*pasasdi
+
 
 /* MEDIA QUERY - CELULAR */
 @media (max-width:576px){

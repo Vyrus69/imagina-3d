@@ -26,6 +26,12 @@ header {
     font-size: 20px; }
     header .nav-link:hover {
       color: black !important; }
+  header .btn-outline-success {
+    color: yellow;
+    border-color: yellow; }
+    header .btn-outline-success:hover {
+      color: black;
+      background-color: yellow; }
 
 footer {
   background-color: white;
@@ -33,7 +39,10 @@ footer {
   justify-content: space-between;
   opacity: 0.6;
   height: 30px;
+  position: absolute;
   font-size: 15;
+  width: 100%;
+  bottom: 0;
   font-weight: 600; }
 
 #banner {
@@ -41,7 +50,8 @@ footer {
   background-image: url(../imagenes/Banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow-x: hidden; }
 
 .main__inicio iframe {
   margin: 10px; }

@@ -15,7 +15,15 @@ header{
         color: yellow !important;
         font-size: 20px;
         &:hover{
-        color: black !important;
+            color: black !important;
         }
+    }
+    .btn-outline-success{
+        color: yellow;
+        border-color: yellow;
+        &:hover{
+            color: black;
+            background-color: yellow;
+        }   
     }
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Shadows+Into+Light&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -44,6 +45,9 @@ footer {
   width: 100%;
   bottom: 0;
   font-weight: 600; }
+  footer p {
+    margin-left: 5px;
+    margin-right: 5px; }
 
 #banner {
   height: 450;
@@ -99,6 +103,9 @@ footer {
     background-color: silver;
     border-color: yellow; }
 
+.card-body {
+  font-weight: 600; }
+
 .muestra__color {
   color: #4c38e3;
   text-align: center;
@@ -133,7 +140,7 @@ footer {
   text-align: center;
   margin-top: 100px;
   font-size: 35px;
-  font-family: 'Kanit', sans-serif; }
+  font-family: "Kanit"; }
 
 .form__formulario {
   width: 400px;

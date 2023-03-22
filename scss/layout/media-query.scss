@@ -56,10 +56,13 @@
         display: flex;
         flex-direction: column;
     }
-    .redes iframe{
-        width:350px;
-        height:250px;
-    }
+    .redes{
+        width: 375px;
+        iframe{
+            width:350px;
+            height:250px;
+        }
+    }    
     footer{
         height: 15px;
         font-size: 10px;
